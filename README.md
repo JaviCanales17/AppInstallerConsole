@@ -1,8 +1,8 @@
 # AppInstallerConsole.
 
-![.NET](https://img.shields.io/badge/.NET-8.0-blue)
-![C#](https://img.shields.io/badge/Language-C%23-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-yellow)
+![C#](https://img.shields.io/badge/Language-C%23-green)
+![.NET](https://img.shields.io/badge/.NET-8.0-blue)
 
 ## Descripción.
 
@@ -25,6 +25,7 @@ El proyecto permite distribuir un instalador portátil y desatendido que, al eje
 
 ## Estructura del proyecto.
 
+```bash
 AutoInstallerConsole/
 ├── Program.cs                      # Código principal de la app consola
 ├── Resources/
@@ -32,7 +33,7 @@ AutoInstallerConsole/
 ├── Installers/                     # Carpeta donde se descargan los instaladores
 ├── AutoInstallerConsole.csproj     # Archivo de proyecto .NET
 └── README.md                       # Este archivo de documentación
-
+```
 ---
 
 ## Requisitos.
@@ -62,6 +63,7 @@ El programa descargará los instaladores necesarios y ejecutará la instalación
 
 Edita el archivo `software_list.json` con el siguiente formato:
 
+```json
 [
   {
     "nombre": "Nombre del programa",
@@ -70,12 +72,14 @@ Edita el archivo `software_list.json` con el siguiente formato:
     "argumentos": "argumentos_silenciosos_para_instalacion"
   }
 ]
+```
 
 ---
 
 ## Contribuciones.
 
 ¡Las contribuciones son bienvenidas!
+
 Si quieres mejorar el proyecto, por favor abre un issue o un pull request.
 
 ---
@@ -83,6 +87,7 @@ Si quieres mejorar el proyecto, por favor abre un issue o un pull request.
 ## Licencia.
 
 Este proyecto está bajo licencia MIT.
+
 Consulta el archivo LICENSE para más detalles.
 
 ---
@@ -90,6 +95,7 @@ Consulta el archivo LICENSE para más detalles.
 ## Contacto.
 
 Desarrollado por JaviCanales17
-GitHubLink
+
+[GitHub](https://github.com/JaviCanales17)
 
 ---
